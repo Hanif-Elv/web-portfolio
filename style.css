@@ -1,38 +1,84 @@
 body{
-  margin: 0px;
   font-family: 'Poppins', sans-serif;
-
+  margin: 0px;
+}
+section{
+  height: 550px;
+}
+.container{
+ background-image: url("images/top-banner.png");
+ background-repeat: no-repeat; 
+ padding-bottom: 170px;
+}
+.half-width{
+  width: 42%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+  margin-top: 2%;
+  /* border: 1px solid red;   */
 }
 h1{
   font-size: 50px;
 }
-.name-high{
+h2{
+  font-size: 40px;
+}
+.name-hlg{
   color: orange;
 }
-.half-width{
-  width: 40%;
-  float: left;
-  margin-left: 5%;
-  padding-left: 2%;
-  /* border: 1px solid red; */
-}
 .half-width img{
-  width: 100%;
+  width: 70%;
+  padding-left: 5%;
 }
-.top-banner{
-  background-image: url(images/top-banner.png);
-  /* border: 1px solid black; */
+.half-width p{
+  color: grey;
 }
-section{
-  height: 500px;
+.hire-btn{
+  text-decoration: none;
+  background-image: linear-gradient(45deg, lightSalmon, tomato);
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+}
+.hire-btn2{
+  text-decoration: none;
+  background-image: linear-gradient(145deg, lightSalmon, tomato);
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+}
+.container2{
+  background-image: url("images/dream-bg.png");
   background-repeat: no-repeat;
+  background-position: right;
+  padding-bottom: 170px;
+}
+.container3{
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-bottom: 170px;
+}
+.box-pjr{
+  box-shadow: 10px 20px 40px grey;
+  height: 80%;
+  border-radius: 8px;
+  background-color: white;
   
 }
-.link-btn{
-  text-decoration: none;
-  background-image: linear-gradient(45deg, lightsalmon,tomato);
-  padding: 10px 20px;
-  border-radius: 5px;
-  color: white;
-  font-weight: 600;
+#box-1{
+  border-image: linear-gradient(180deg, lightSalmon, tomato);
+  border-image-slice: 1;
+  border-left: 7px solid;
+  
+}
+#box-2{
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+  border-left: 7px solid;
+}
+footer p{
+  text-align: center;
+  color: grey;
 }
